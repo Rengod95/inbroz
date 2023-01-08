@@ -5,6 +5,7 @@ import AuthPage from "../Auth/AuthPage";
 import FeedPage from "../Feed/FeedPage";
 import MainPage from "../Main/MainPage";
 import NotFound from "../NotFound/NotFound";
+import CoursePage from "../Lecture/page/CoursePage";
 
 const PageRouter = () => {
   return (
@@ -12,7 +13,7 @@ const PageRouter = () => {
       <Route path={PAGE.PAGE_SIGN_IN} element={<AuthPage />} />
       <Route path={PAGE.PAGE_SIGN_UP} element={<AuthPage />} />
       <Route path={PAGE.PAGE_FEED} element={<FeedPage />} />
-      <Route></Route>
+      <Route path={PAGE.PAGE_COURSE} element={<CoursePage />}></Route>
       <Route path={PAGE.PAGE_MAIN} element={<MainPage />} />
       <Route path={PAGE.PAGE_NOTFOUND} element={<NotFound />} />
     </Routes>

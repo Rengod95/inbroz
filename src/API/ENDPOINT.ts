@@ -13,4 +13,7 @@ export const PAGE = {
   PAGE_PROFILE: "/profile",
   PAGE_FEED: "/feed",
   PAGE_NOTFOUND: "/",
+  PAGE_COURSE: "/course",
+  PAGE_CONTACT: "/contact",
+  PAGE_NOTICE: "/notice",
 };

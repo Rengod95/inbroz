@@ -10,6 +10,7 @@ const theme: Theme = {
     white: "#fff",
     light: "rgba(255,255, 255, 0.7)",
     black: "#000",
+    headerBg: "rgba(48,55,105,0.3)",
     bg: "#242e54",
     bg1: "#2e3267",
     bg2: "#424890",

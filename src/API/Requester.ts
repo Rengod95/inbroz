@@ -1,11 +1,9 @@
-import axios, { AxiosResponse } from "axios";
+import axios from "axios";
 import { SignIn, SignUp } from "../Model";
 import { ENDPOINT } from "./ENDPOINT";
 
 const Requester = (function () {
-  const Authenticate = async (
-    user: SignUp | SignIn
-  ): Promise<AxiosResponse> => {
+  const Authenticate = async (user: SignUp | SignIn): Promise<unknown> => {
     let url: string;
 
     if (user instanceof SignIn) url = ENDPOINT.SIGN_IN;

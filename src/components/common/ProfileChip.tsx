@@ -9,7 +9,6 @@ import { Auth } from "../../Recoil";
 
 import { Avatar, Chip, styled } from "@mui/material";
 import LockOutlinedIcon from "@mui/icons-material/LockOutlined";
-import Theme from "../../Styles/theme";
 import { handlePermissionCallback } from "../../Utils/auth";
 
 interface ChipProps {
